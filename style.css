@@ -1,0 +1,324 @@
+/* #2196F3 blue
+#2F303A dark-grey
+#757575 ligth-grey
+#212121 ligth-black
+#F5F4FA more-ligth-grey
+footer text color #FFFFFF opacitiy=60% */
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    margin: 0;
+
+}
+.logo-1 {
+display: inline-block;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+margin-left: 6%;
+margin-top: 1.6%;
+margin-bottom: 2%;
+} 
+.logo-2 {
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.menu {
+    list-style: none;
+    display: inline;
+}
+li{
+    display: inline;
+}
+.header-item {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #212121;
+text-decoration: none;
+display: inline-block;
+margin-left: 3%;
+}
+.header-item:hover {
+    transition: 0.3s;
+    color: #2196F3;
+}
+.header-item-eMail {
+display: inline-block;    
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #212121;
+text-decoration: none;
+margin-left: 24%;
+margin-right: 5%;
+}
+.header-item-eMail:hover {
+    transition: 0.3s;
+    color: #2196F3;
+}
+.header-item-tel {
+display: inline-block;    
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #757575;
+margin-right: 5%;
+}
+.header-item-tel:hover {
+    transition: 0.3s;
+    color: #2196F3;
+}
+.section1 {
+    background-color: #2F303A;
+    height: 58ch;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 12%;
+}
+.section-head {
+font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;    
+color: #FFFFFF;
+display: block;
+width: 50%;
+margin-left: 26%;
+margin-top: 0;
+}
+button {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+background-color: #2196F3;
+color: #FFFFFF;
+border-radius: 4px;
+border: solid #2196F3;
+text-align: center;
+width: 17%;
+height: 10%;
+
+}
+.a1 {
+    text-decoration: none;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+background-color: #2196F3;
+color: #FFFFFF;
+border-radius: 4px;
+border: solid #2196F3;
+text-align: center;
+width: 17%;
+height: 10%;
+border: none;
+}
+.div-head {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #212121;
+display:flex;
+border: none;
+
+}
+.div-text {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+ text-align: left; 
+color: #757575;
+display: inline;
+border: none;
+}
+.div-section2 {
+    display: inline-block;
+    width: 20%;
+    height: 25%;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+.section2 {
+    margin-left: 9%;
+    height: auto;
+}
+.work-head {
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+margin-top: 10%;
+border: none;
+color: #212121;
+}
+.work-img {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.work-img:nth-child(2) {
+    margin-left: 6.68%;
+}
+.section4 {
+    background-color: #F5F4FA ;
+    padding-top: 3%;
+    display: block;
+    /* padding-left: 10%; */
+}
+.person-div-head {
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 3%;
+
+}
+.persone-img {
+   width: 100%;
+}
+.persone-name {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+display: inline-block;
+
+}
+ .persone-workName {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+display: inline-block;
+
+
+}
+.team-person {
+display: inline-block;
+width: 20%;
+background-color: #FFFFFF;
+text-align: center;
+margin-left: 2%;
+margin-bottom: 5%;
+border-radius: 5px;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.398);
+}
+.team-div{
+    margin-left: 9%;
+}
+footer {
+    background-color: #2F303A;
+    height: 35ch;
+    padding-top: 5%;
+}
+.footer-logo1 {
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2196F3;
+    margin-left: 6%;
+    margin-top: 1.6%;
+    margin-bottom: 2%;
+    } 
+.footer-logo2 {
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer-text-location {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+}
+.footer-text-eMail {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+opacity: 60%;
+color: #FFFFFF;
+
+}
+.footer-text-tel {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+opacity: 60%;
+}
+.footer-item {
+    margin-left: 5%;
+}
+.footer-logo-div {
+    margin-right: 15%;
+}
